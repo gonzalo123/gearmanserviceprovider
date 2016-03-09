@@ -1,0 +1,34 @@
+{
+  "name": "gonzalo123/gearmanserviceprovider",
+  "description": "Gearman Service Provider",
+  "license": "MIT",
+  "keywords": [
+    "gearman", "Silex"
+  ],
+  "author": [
+    {
+      "name": "Gonzalo Ayuso",
+      "email": "gonzalo123@gmail.com",
+      "url": "http://gonzalo123.com"
+    }
+  ],
+  "require": {
+    "silex/silex": ">=v1.1.2, <2.0",
+    "gonzalo123/gearman": "dev-master",
+    "gonzalo123/injector": "^1.0"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "G\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
