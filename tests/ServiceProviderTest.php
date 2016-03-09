@@ -4,7 +4,6 @@ use Injector\InjectorServiceProvider;
 use G\GearmanServiceProvider;
 use Silex\Application;
 use G\Gearman\Client;
-use G\Gearman\Tasks;
 
 class ServiceProviderTest extends PHPUnit_Framework_TestCase
 {

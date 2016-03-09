@@ -11,8 +11,12 @@ class GearmanServiceProvider implements ServiceProviderInterface
 {
     private $client;
 
-    public function __construct(\GearmanClient $client)
+    public function __construct(\GearmanClient $client = null)
     {
+        if (is_null($client)) {
+            $client = new \GearmanClient();
+            $client->addServers("localhost:4730");
+        }
         $this->client = $client;
     }
 

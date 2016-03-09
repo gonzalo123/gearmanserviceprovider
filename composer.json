@@ -1,6 +1,6 @@
 {
   "name": "gonzalo123/gearmanserviceprovider",
-  "description": "Gearman Service Provider",
+  "description": "Gearman Service Provider for Silex",
   "license": "MIT",
   "keywords": [
     "gearman", "Silex"
