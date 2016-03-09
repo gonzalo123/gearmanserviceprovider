@@ -1,6 +1,8 @@
 Gearman Service provider for Silex
 ==================================
 
+[![Build Status](https://travis-ci.org/gonzalo123/gearmanserviceprovider.svg?branch=master)](https://travis-ci.org/gonzalo123/gearmanserviceprovider)
+
 Silex aplication example:
 
 ```php
